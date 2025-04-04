@@ -1,4 +1,5 @@
-const { Time, Stopper } = require('../index');
+const { Stopper } = require('../Stopper');
+
 
 describe('Stopper Class', () => {
     beforeEach(() => {

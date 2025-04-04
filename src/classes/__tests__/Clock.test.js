@@ -1,4 +1,5 @@
-const { Time, Clock } = require('../index');
+const { Clock } = require('../Clock');
+const { Time } = require('../index');
 
 jest.useFakeTimers(); // Mock setInterval & clearInterval
 
