@@ -1,4 +1,4 @@
-const Time = require('../index');
+const { Time } = require('../index');
 
 describe('Time Class Tests', () => {
     test('Constructor should initialize with current time when no params are given', () => {
@@ -130,3 +130,4 @@ describe('Time Class Tests', () => {
         expect(time.lowerThen(time2)).toBeFalsy();
     });
 });
+
