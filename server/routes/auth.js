@@ -10,8 +10,6 @@ const {
 const { authenticateToken } = require("../middlewares/CheckIsAuthenticated");
 
 
-
-
 router.get("/login", loginPage);
 router.post("/login", login);
 router.get("/logout", logout);

@@ -1,0 +1,43 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# dotenv environment variables
+.env
+.env.local
+.env.*.local
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# IDE/editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# MacOS and Linux system files
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
